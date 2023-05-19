@@ -6,6 +6,6 @@ const userDetails = {
   role: 'data analyst',
 }
 
-const App = () => <UserProfile />
+const App = () => <UserProfile userDetails={userDetails} />
 
 export default App
